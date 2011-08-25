@@ -1,0 +1,17 @@
+Default: &defaults
+  database: Test.sqlite3
+
+Development:
+  <<: *defaults
+
+Test:
+  database: Test_test.sqlite3
+  <<: *defaults
+
+Staging:
+  database: Test_staging.sqlite3
+  <<: *defaults
+
+Production:
+  database: Test_production.sqlite3
+  <<: *defaults

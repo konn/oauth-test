@@ -1,0 +1,5 @@
+User
+    ident Text
+    token String
+    tokenSecret String
+    UniqueUser ident
